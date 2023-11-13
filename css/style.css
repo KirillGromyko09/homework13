@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #cbcbcb;
+    width:100%;
+}
+.wrapper{
+    background-color:  #EFEFEF;
+    background-size: cover;
+}
+/*header*/
+.header{
+
+}
+.header__top {
+    background-color: #EFEFEF;
+    padding: 15px 0;
+}
+.header__top ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.header__top a {
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+.header__middle{
+    padding: 20px 0;
+    display: flex;
+}
+.header__logo, .header__phone{
+    width: 50%;
+    display: flex;
+
+}
+.header__logo{
+    justify-content: left;
+}
+.header__phone{
+    justify-content: right;
+}
+.header__logo h1{
+    color: #F13C6E;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.header__phone p{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.header__btn{
+    padding-top: 30px;
+}
+.btn{
+    border-radius: 40px;
+    border: 2px solid  #F13C6E;
+    background: #FFF;
+    padding: 12px 50px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+/*entry*/
+.entry{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.entry__navigation{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.entry__navigation-item{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*banner*/
+.banner{
+    background-image: url("../assets/chair1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner__text{
+    justify-content: left;
+}
+h2{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 192px;
+}
+.banner__text p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 22%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.banner__btn{
+    padding-bottom: 130px;
+}
+.btn1{
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    background: #F13C6E;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 12px 70px;
+}
+/*catalog*/
+.wrapper{
+    background-color:  #EFEFEF;
+    background-size: cover;
+}
+h3{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 38px;}
+.catalog__content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding-bottom: 100px;}
+.catalog__item{
+    background-color: #FFFFFF;
+    width: calc(100%/4 - 30px);}
+.catalog__item img{
+    display: block;
+    margin: 0 auto;
+    padding: 25px 65px;}
+.catalog__item-text{
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 20px;}
+.catalog__item-prise{
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;}
+.catalog__btn{
+    border-radius: 30px;
+    background: #F13C6E;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 130px;
+    height: 35px;
+    padding: 9px 50px;
+    margin-bottom: 20px;
+    margin-left: 63px}
+
+.catalog__btn-special{
+    color: #FFF;
+}
+/*card*/
+.card__item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.card__gift, .card__visit{
+    background-color: #F13C6E;
+    display: flex;
+    max-width: 540px;
+    justify-content: space-between;
+}
+
+.card__gift-text, .card__visit h4{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 25px;}
+.card__gift-text, .card__visit p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+.card__gift input{
+    border-radius: 30px;
+    background: #FFF;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 95px 9px 25px;
+}
+.card__gift-img {
+    padding: 36px 45px 36px 90px;
+}
